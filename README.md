@@ -8,6 +8,7 @@ Este projeto tem como objetivo analisar e visualizar dados de ocorrências crimi
 - **Pandas**: manipulação e limpeza dos dados.
 - **SQLite**: armazenamento e consultas das informações tratadas.
 - **Matplotlib**: criação de gráficos e visualizações.
+- outros instrumentais
 
 ## Metodologia
 1. **Aquisição dos Dados**
@@ -22,5 +23,6 @@ Este projeto tem como objetivo analisar e visualizar dados de ocorrências crimi
    - Estruturação de tabelas e criação de consultas para análises específicas.
 
 4. **Análise e Visualização**
-   - Geração de **gráficos de barras, linhas e mapas** utilizando **Matplotlib**.
+   - Geração de **gráficos de barras, linhas e pizza** utilizando **Matplotlib**.
    - Visualização de tendências, frequência por tipo de ocorrência e comparativos mensais.
+
