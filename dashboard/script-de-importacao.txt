@@ -1,0 +1,12 @@
+import pandas as pd
+import sqlite3
+
+conn = sqlite3.connect(r"C:\Users\mathe\OneDrive\Área de Trabalho\MATHEUS\engenhariaDeSoftware\python\IA-and-data\mapa-da-criminalidade-2\data\crimes_sp.db")
+
+query = """
+        SELECT * FROM OCORRENCIAS
+        """
+
+df = pd.read_sql_query(query, conn)
+
+df
